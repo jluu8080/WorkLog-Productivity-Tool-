@@ -90,5 +90,6 @@ Run `npm install` first on a fresh clone.
 ## To-Do
 
 - Edit, Save, Delete, and Exit model for entries
-- Persist entries with `localStorage` or the Express server
 - Copy buttons formatted for Discord and Google Docs
+- Polish the code
+- Add Comments for future work
