@@ -1,0 +1,20 @@
+{
+  "name": "homework3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map",
+    "dev": "concurrently -n sass,server \"npm run compile:sass\" \"npm run serve\""
+  },
+  "author": "Jason Luu",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "sass": "^1.105.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,105 @@
+.workLogSection
+{
+    display:flex;
+    justify-content: center;
+
+    .workLogContent
+    {
+        min-width:700px;
+
+        display:flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items:center;
+
+        background-color: aliceblue;
+        // padding-top: 20px;
+
+        label
+        {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        .workLogInputs
+        {
+            width:70%;
+            min-height:250px;
+
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            background-color: lightblue;
+
+            input
+            {
+                height:25px;
+            }
+
+            #workLogEntryBox
+            {
+
+                background-color: aliceblue;
+                height: 100px;
+                width: 100%;
+                white-space: pre-wrap; 
+
+                font-size: 14px;
+                padding-top:2px;
+                padding-left:5px;
+
+            }
+        }
+
+        // Need to work on this for entries
+        #workLogEntriesList
+        {
+            /* background-color: lightgray; */
+
+            width:100%;
+            min-height:100px;
+            margin-top:20px;
+
+            border: 1px solid;
+            padding: 10px;
+            
+            .workLogEntry
+            {
+                // margin-bottom:20px;
+                padding-top:10px;
+                padding-bottom:10px;
+
+                border-bottom: 1px dashed black;
+                
+                p
+                {
+                    margin:0;
+                    padding:0;
+                }
+                
+                .entryNum
+                {
+                    margin-bottom: 15px;
+                }
+
+                #entryDate
+                {
+                    font-weight: bold;
+                }
+
+                #entryDesc
+                {
+                    margin-top:1px;
+                    white-space:pre-wrap;
+                    font-size: 16px;
+
+                }
+            }
+
+        }
+    }
+
+
+}

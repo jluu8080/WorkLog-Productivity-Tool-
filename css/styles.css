@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pageHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.pageHistory .imagesList {
+  display: flex;
+  margin-right: 15px;
+}
+.pageHistory .imagesList img {
+  width: 800px;
+  height: auto;
+}
+
+#dueDate {
+  color: red;
+}
+
+.workLogSection {
+  display: flex;
+  justify-content: center;
+}
+.workLogSection .workLogContent {
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.workLogSection .workLogContent label {
+  font-size: 36px;
+  font-weight: bold;
+}
+.workLogSection .workLogContent .workLogInputs {
+  width: 70%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+.workLogSection .workLogContent .workLogInputs input {
+  height: 25px;
+}
+.workLogSection .workLogContent .workLogInputs #workLogEntryBox {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100%;
+  white-space: pre-wrap;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+.workLogSection .workLogContent #workLogEntriesList {
+  /* background-color: lightgray; */
+  width: 100%;
+  min-height: 100px;
+  margin-top: 20px;
+  border: 1px solid;
+  padding: 10px;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed black;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry p {
+  margin: 0;
+  padding: 0;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry .entryNum {
+  margin-bottom: 15px;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry #entryDate {
+  font-weight: bold;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry #entryDesc {
+  margin-top: 1px;
+  white-space: pre-wrap;
+  font-size: 16px;
+}

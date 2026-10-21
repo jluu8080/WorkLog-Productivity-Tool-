@@ -1,0 +1,59 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+ height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+main
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+section
+{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.pageHistory
+{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+
+    .imagesList
+    {
+        display: flex;
+        margin-right:15px;
+
+        img
+        {
+            width:800px;
+            height:auto;
+        }
+    }
+
+    // #pageHistoryText
+    // {
+
+    // }
+
+}
+
+#dueDate
+{
+    color:red;
+}
